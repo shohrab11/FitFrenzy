@@ -62,6 +62,7 @@
 /* header section start here    */
 body {
     max-width: 1440px;
+    background-color: #000;
 }
 
 header {
@@ -127,6 +128,7 @@ ul>li a {
     margin: 0 auto;
     display: flex;
     gap: 150px;
+    position: relative;
 }
 
 .hero-title {
@@ -166,14 +168,75 @@ ul>li a {
 
 }
 
+.workout-videos {
+    position: absolute;
+    left: 85%;
+    top: 20%;
+    width: 193px;
+    height: 98px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.workout-tutorial {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    width: 206px;
+    height: 96px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.workout-videos h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.workout-videos p,
+.workout-tutorial p {
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.workout-tutorial h3 {
+    color: #FAFAF9;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.circle {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #E6533C;
+}
+
 /* Hero section end here */
 
 /* header section end here    */
 /* Habit section start here */
-body {
-    max-width: 1440px;
-    background-color: #000;
-}
+
 
 .habit-section {
     width: 80%;
@@ -211,7 +274,7 @@ body {
 
 .habit-card img {
     border-radius: 50%;
-    border: 5px solid rgb(128, 128, 128,0.3);
+    border: 5px solid rgb(128, 128, 128, 0.3);
 
 }
 
@@ -244,7 +307,7 @@ body {
 .run-extra-mile-image {
     width: 366px;
     height: 312px;
-   
+
 }
 
 
@@ -268,7 +331,7 @@ body {
 
 /* habit section end here   */
 
-/* Calculate BMI section start here */
+/*BMI section start here */
 .bmi-section {
     width: 80%;
     margin: 0 auto;
@@ -283,10 +346,20 @@ body {
     margin: 0 auto;
 }
 
-.bmi-calculate-tile {
+/* BMI section end here */
+
+/* Calculate BMI section start here */
+.bmi-calculate-section {
+    display: flex;
+    background: #222;
+    padding: 50px 10%;
+
+}
+
+.bmi-calculate-title {
     color: #FFF;
     font-family: Inter;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 900;
 }
 
@@ -297,8 +370,99 @@ body {
     font-weight: 400;
 }
 
+.bmi-calculate-table {
+    width: 45%;
+}
 
+table {
+    margin-top: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-collapse: collapse;
+}
 
+th {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+td {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.bmi-calculate-input>h3 {
+    margin-bottom: 5px;
+}
+
+.bmi-calculate-input>p {
+    margin-bottom: 30px;
+    max-width: 560px;
+    text-align: left;
+    margin-top: 14px;
+}
+
+.bmi-calculate-input-1 input {
+    margin-bottom: 10px;
+    width: 250px;
+    height: 40px;
+    margin-right: 10px;
+    padding: 12px 40px 12px 20px;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.10);
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.bmi-calculate-input-2 input,
+#sex,
+#sex>option {
+    width: 250px;
+    height: 40px;
+    margin-right: 6px;
+    padding: 12px 40px 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.10);
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+select>option{
+    padding-right: 30px;
+}
+#activity-factor{
+    margin: 10px 0;
+    max-width: 510px;
+    height: 40px;
+    padding: 12px 20px 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.10);
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
 /* Calculate BMI section end here */
 
 
@@ -425,17 +589,21 @@ body {
     text-align: center;
     padding: 20px;
 }
-.hr{
+
+.hr {
     width: 80%;
     margin: 40px auto;
 }
+
 /* Footer section end here */
 
 /* responsive for mobile   */
-.hidden{
+.hidden {
     display: none;
 }
+
 @media screen and (max-width: 576px) {
+    .bmi-calculate-section,
     .footer-content,
     .training-image-first-row,
     .run-extra-mile-content,
@@ -459,6 +627,12 @@ body {
         font-family: Inter;
         font-size: 36px;
         font-weight: 900;
+    }
+    .workout-videos {
+        position: absolute;
+        left: 40%;
+        top: 20%;
+        
     }
 
     .hero-content {
@@ -497,32 +671,35 @@ body {
         width: 100%;
 
     }
-    
+
     .team-image-section {
         display: grid;
         grid-template-columns: 1fr;
         width: 100%;
 
     }
+
     .team-image-section img {
         border-radius: 18px;
         width: 100%;
-    
+
     }
-    
+
     .footer-content {
         width: 90%;
         gap: 20px;
         margin-left: 40px;
-    
+
     }
-    .footer-left-text{
+
+    .footer-left-text {
         width: 100%;
         margin-bottom: 0;
     }
+
     .footer-link-heading {
         margin: 10px 0 10px 0;
     }
-   
+
 
 }
