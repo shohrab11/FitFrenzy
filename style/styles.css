@@ -54,9 +54,11 @@
     margin: 28px 0;
     text-align: center;
 }
-.width-60{
+
+.width-60 {
     width: 60%;
 }
+
 /* header section start here    */
 body {
     max-width: 1440px;
@@ -168,7 +170,7 @@ ul>li a {
 
 /* header section end here    */
 /* Habit section start here */
-main {
+body {
     max-width: 1440px;
     background-color: #000;
 }
@@ -180,7 +182,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 }
 
 .habit-subtile {
@@ -189,32 +191,256 @@ main {
     font-size: 18px;
     margin-top: 30px;
 }
-.habit-content{
+
+.habit-content {
     display: flex;
     gap: 40px;
     margin-top: 60px;
     justify-content: center;
     align-items: center;
 }
-.hero-card{
+
+.habit-card {
     max-width: 231px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 }
-.hero-card img {
+
+.habit-card img {
     border-radius: 50%;
+    border: 5px solid rgb(128, 128, 128,0.3);
 
 }
-
 
 /* Habit section end here */
-/* responsive for mobile   */
 
+/* run an extra mile section start here   */
+.run-extra-mile {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.run-extra-mile-content {
+    display: flex;
+    gap: 160px;
+    padding: 30px;
+    border-radius: 18px;
+    background-color: #222;
+}
+
+.run-extra-mile-text {
+    width: 50%;
+    text-align: left;
+}
+
+.run-extra-mile-text>p {
+    text-align: left;
+}
+
+.run-extra-mile-image {
+    width: 366px;
+    height: 312px;
+   
+}
+
+
+/* run an extra mile section end here   */
+
+/* habit section start here   */
+.training-section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.training-section>p {
+    text-align: left;
+    margin: 14px 0;
+}
+
+.training-image-first-row {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr 0.6fr;
+}
+
+/* habit section end here   */
+
+/* Calculate BMI section start here */
+.bmi-section {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.bmi-section>h2,
+.bmi-section>p {
+    text-align: center;
+    margin-top: 5px;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.bmi-calculate-tile {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.bmi-calculate-description {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+/* Calculate BMI section end here */
+
+
+
+/* Our Team section start here */
+.team-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.team-container>h3 {
+    text-align: center;
+}
+
+.team-container>p {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 14px;
+    margin-bottom: 58px;
+}
+
+.team-image-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.10);
+    border-radius: 18px;
+}
+
+.team-image-section img {
+    border-radius: 18px;
+
+}
+
+.team-card {
+    position: relative;
+}
+
+.team-text {
+    position: absolute;
+    top: 75%;
+    left: 10%;
+}
+
+.team-trainer-text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.team-position {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Our Team section end here */
+
+/* Footer section start here */
+.footer {
+    background-color: rgba(255, 255, 255, 0.10);
+    margin-bottom: 0;
+}
+
+.footer-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+
+}
+
+.footer-left-text {
+    width: 45%;
+    height: auto;
+}
+
+.footer-left-text p {
+    text-align: left;
+}
+
+.footer-heading {
+    color: #E6533C;
+    font-family: Inter;
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.footer-link {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link>a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding-top: 10px;
+
+}
+
+.footer-link-heading {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 50px 0 40px 0;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+}
+.hr{
+    width: 80%;
+    margin: 40px auto;
+}
+/* Footer section end here */
+
+/* responsive for mobile   */
+.hidden{
+    display: none;
+}
 @media screen and (max-width: 576px) {
-    .hero-section, .habit-content {
+    .footer-content,
+    .training-image-first-row,
+    .run-extra-mile-content,
+    .hero-section,
+    .habit-content {
         flex-direction: column;
     }
 
@@ -245,5 +471,58 @@ main {
 
     }
 
+    .run-extra-mile-content {
+        gap: 60px;
+    }
+
+    .run-extra-mile-text {
+        width: 100%;
+    }
+
+    .run-extra-mile-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .run-extra-mile-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .run-extra-mile-text>.btn-primary {
+        width: 100%;
+    }
+
+    .training-image-first-row p {
+        width: 100%;
+
+    }
+    
+    .team-image-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+
+    }
+    .team-image-section img {
+        border-radius: 18px;
+        width: 100%;
+    
+    }
+    
+    .footer-content {
+        width: 90%;
+        gap: 20px;
+        margin-left: 40px;
+    
+    }
+    .footer-left-text{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .footer-link-heading {
+        margin: 10px 0 10px 0;
+    }
+   
 
 }
