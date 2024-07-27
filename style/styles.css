@@ -4,18 +4,15 @@
     font-family: Miama;
     src: url(../Miama.ttf);
 }
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     max-width: 1440px;
     background-color: #000;
 }
-
 /* shared style */
 .btn-primary {
     padding: 1rem 2.4rem;
@@ -28,7 +25,6 @@ body {
     font-weight: 600;
     cursor: pointer;
 }
-
 .btn-primary-club {
     padding: 1rem 2.4rem;
     background-color: #E6533C;
@@ -40,7 +36,6 @@ body {
     font-weight: 600;
     cursor: pointer;
 }
-
 .btn-primary-join {
     display: none;
     padding: 1rem 2.4rem;
@@ -53,7 +48,6 @@ body {
     font-weight: 600;
     cursor: pointer;
 }
-
 .btn-secondary {
     padding: 1rem 2.4rem;
     border-radius: 42px;
@@ -65,16 +59,13 @@ body {
     font-weight: 600;
     background: none;
     cursor: pointer;
-
 }
-
 .section-title {
     color: #FFF;
     font-family: Inter;
     font-size: 48px;
     font-weight: 900;
 }
-
 .section-description {
     color: rgba(255, 255, 255, 0.50);
     font-family: Inter;
@@ -84,21 +75,16 @@ body {
     margin: 28px 0;
     text-align: center;
 }
-
 .width-60 {
     width: 60%;
 }
-
 /* header section start here    */
-
 
 header {
     height: auto;
     /* background-image: linear-gradient(to right top, #040507, #05080a, #060b0b, #090d0b, #0e0f0b); */
     background: Linear-gradient(360.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
-
 }
-
 /* navbar start here */
 nav {
     width: 80%;
@@ -107,7 +93,6 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
-
 .brand-name {
     color: #E6533C;
     font-family: Inter;
@@ -115,7 +100,6 @@ nav {
     font-style: italic;
     font-weight: 800;
 }
-
 ul {
     display: flex;
     gap: 45px;
@@ -123,17 +107,14 @@ ul {
     border-radius: 39px;
     border: 1px solid rgba(255, 255, 255, 0.10);
 }
-
 ul li {
     list-style: none;
     padding: 8px 20px;
 }
-
 .active {
     border-radius: 46px;
     background: #E6533C;
 }
-
 ul>li a {
     text-decoration: none;
     color: #FFF;
@@ -142,12 +123,10 @@ ul>li a {
     font-weight: 600;
     line-height: normal;
 }
-
 #icon {
     color: #FFF;
     display: none;
 }
-
 /* navbar end here */
 
 /* Hero section start here */
@@ -158,14 +137,12 @@ ul>li a {
     gap: 150px;
     position: relative;
 }
-
 .hero-title {
     color: #FFF;
     font-family: Inter;
     font-size: 78px;
     font-weight: 900;
 }
-
 .hero-description {
     color: rgba(255, 255, 255, 0.50);
     font-family: Inter;
@@ -174,30 +151,23 @@ ul>li a {
     font-weight: 400;
     margin: 28px 0;
 }
-
 #hero-shape {
     content: "Shape";
     color: #FFF;
     font-family: "Miama",sans-serif;
     font-size: 90px;
     font-weight: 400;
-
 }
-
 .hero-content {
     width: 50%;
 }
-
 .hero-image {
     width: 349px;
     height: 580px;
 }
-
 .hero-image img {
     width: 100%;
-
 }
-
 .workout-videos {
     position: absolute;
     left: 85%;
@@ -213,7 +183,6 @@ ul>li a {
     align-items: center;
     justify-content: center;
 }
-
 .workout-tutorial {
     position: absolute;
     left: 50%;
@@ -229,14 +198,12 @@ ul>li a {
     justify-content: center;
     gap: 10px;
 }
-
 .workout-videos h2 {
     color: #FFF;
     font-family: Inter;
     font-size: 40px;
     font-weight: 900;
 }
-
 .workout-videos p,
 .workout-tutorial p {
     color: rgba(255, 255, 255, 0.65);
@@ -245,7 +212,6 @@ ul>li a {
     font-style: normal;
     font-weight: 400;
 }
-
 .workout-tutorial h3 {
     color: #FAFAF9;
     font-family: Inter;
@@ -253,7 +219,6 @@ ul>li a {
     font-style: normal;
     font-weight: 900;
 }
-
 .circle {
     display: block;
     width: 30px;
@@ -267,8 +232,6 @@ ul>li a {
 /* header section end here    */
 
 /* Habit section start here */
-
-
 .habit-section {
     width: 80%;
     margin: 0 auto;
@@ -278,14 +241,12 @@ ul>li a {
     align-items: center;
     justify-content: center;
 }
-
 .habit-subtile {
     color: #FFF;
     font-family: Inter;
     font-size: 18px;
     margin-top: 30px;
 }
-
 .habit-content {
     display: flex;
     gap: 40px;
@@ -293,22 +254,17 @@ ul>li a {
     justify-content: center;
     align-items: center;
 }
-
 .habit-card {
     max-width: 231px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
-
 .habit-card img {
     border-radius: 50%;
     border: 5px solid rgb(128, 128, 128, 0.3);
-
 }
-
 /* Habit section end here */
 
 /* run an extra mile section start here   */
@@ -317,7 +273,6 @@ ul>li a {
     margin: 0 auto;
     margin-bottom: 100px;
 }
-
 .run-extra-mile-content {
     display: flex;
     gap: 160px;
@@ -325,20 +280,16 @@ ul>li a {
     border-radius: 18px;
     background-color: #222;
 }
-
 .run-extra-mile-text {
     width: 50%;
     text-align: left;
 }
-
 .run-extra-mile-text>p {
     text-align: left;
 }
-
 .run-extra-mile-image {
     width: 366px;
     height: 312px;
-
 }
 
 /* run an extra mile section end here   */
@@ -429,8 +380,8 @@ ul>li a {
 
 }
 
-
 /* Training  section  end here   */
+/* service we provide start here */
 .service-provide-section{
     width: 80%;
     margin: 0 auto;
@@ -438,6 +389,7 @@ ul>li a {
   }
   .service-provide-section p{
     text-align:left;
+    margin: 10px 0 40px 0;
   }
   .service-provide-content{
     display: flex;
@@ -595,7 +547,7 @@ select>option {
 }
 
 /* Calculate BMI section end here */
-/* service we provide start here */
+
 
 /* Our Team section start here */
 .team-container {
